@@ -1,10 +1,12 @@
 # Underwater_image_enhancement
 
-I have developed a trainable module using tensorflow that leverages evolutionary algorithms optimization capability to deep neaural networks and CNN's to enhance the underwater images 
-Below are the comaprisions of images enhanced using the above module connected to UWCNN network https://github.com/saeed-anwar/UWCNN.git
+I have developed a trainable module in TensorFlow that utilizes evolutionary algorithms (Differential Evolution) for optimizing deep neural networks and CNNs to enhance underwater images.
+We used sum of Average image gradients and entropy as objective function inside the trainable module.
+Achieved best scores in all metrics SSIM,MSE,UIQM.
+Here are the comparisons of images enhanced using this module integrated with the UWCNN network from https://github.com/saeed-anwar/UWCNN.git.
 
 ## Original Image
-<img src="5814_org.png" width="100%" height="100%">
+<img src="5814_org.jpg" width="100%" height="100%">
 
 ## Enhanced Image
-<img src="5814.png" width="100%" height="100%">
+<img src="5814.jpg" width="100%" height="100%">
